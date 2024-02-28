@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --orange: 50, 87%, 85%;
+    --txt-orange: 50, 95%, 22%;
+    --pink: 10, 87%, 85%;
+    --txt-pink: 10, 88%, 17%;
+    --green: 136, 87%, 85%;
+    --txt-green: 136, 85%, 13%;
+    --purple: 317, 79%, 85%;
+    --txt-purple: 317, 90%, 15%;
+    --black: 0, 0%, 0%;
+  }
+  * {
+    font-family: "Clash Display", sans-serif;
+  }
+}
+@layer components {
+  .font-set {
+    @apply text-[18px]  md:text-[48px] lg:text-[56px] font-[500];
+  }
+}
